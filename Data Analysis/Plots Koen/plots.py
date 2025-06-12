@@ -306,7 +306,6 @@ plt.title('Absorption of all the plants')
 plt.legend(['Eva (CE)', 'Jasmijn (HP)', 'Mads (HA)', 'Koen (AF)', 'Nicco (FA)', 'Model (AT)'], loc='upper right', fontsize='small')
 plt.savefig('Absorptions (all)')
 
-flRT_FA_final
 
 plt.figure(7)
 plt.plot(wv_flRTlist, fl_RTCEnorm, 'b-')
