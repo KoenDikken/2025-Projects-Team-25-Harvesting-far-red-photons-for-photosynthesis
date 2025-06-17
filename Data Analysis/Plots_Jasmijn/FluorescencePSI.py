@@ -55,12 +55,12 @@ HA_norm = [x / max_HA for x in emHA]
 # Plot graph
 plt.figure()
 
-plt.plot(wv_AT, AT_norm, color = 'magenta', label = 'AT')
-plt.plot(wv_AT, FA_norm, color = 'blue', label = 'FA')
+plt.plot(wv_AT, AT_norm, 'c-', label = 'AT')
+plt.plot(wv_AT, FA_norm, 'm-', label = 'FA')
 
-plt.plot(wv, AF_norm, color = 'red', label = 'AF')
-plt.plot(wv, CE_norm, color = 'black', label = 'CE')
-plt.plot(wv, HA_norm, color = 'green', label = 'HA')
+plt.plot(wv, AF_norm, 'y-', label = 'AF')
+plt.plot(wv, CE_norm, 'b-', label = 'CE')
+plt.plot(wv, HA_norm, 'g-', label = 'HA')
 
 plt.xlabel('Wavelength (nm)')
 plt.ylabel('Fluorescence (a.u.)')
